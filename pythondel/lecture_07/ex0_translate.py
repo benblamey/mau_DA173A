@@ -7,7 +7,8 @@
 import sys
 # You need to install the package:
 # https://pypi.org/project/transformers/
-# python3 -m pip --install transformers
+# python3 -m pip install transformers
+# (the torch and sentencepiece packages may also need to be installed)
 import transformers
 
 # See: https://huggingface.co/Helsinki-NLP/opus-mt-sv-en
